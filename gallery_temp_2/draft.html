@@ -1,0 +1,310 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>draft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Stick+No+Bills:wght@200..800&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap" rel="stylesheet">
+
+<style>
+#logo {
+    position: relative;
+    left: 70px;
+    font-family: "Stick No Bills", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 50px;
+}
+.bg-image {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+.bg-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('daniel-frank-IT1KYLmKrnk-unsplash.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 50%; /* Controls image transparency */
+  z-index: 0;
+}
+#landing-title {
+    opacity: 100%;
+   font-size: 100px;
+  position: relative;
+  left: 100px;
+  z-index: 1;
+ font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+#about {
+    z-index: 1;
+}
+body {
+  background-color: black;
+}
+.block {
+  animation: appear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+
+}
+@keyframes appear {
+  from {
+    transform: skewX(5deg) translateX(-100px);
+  }
+  to {
+    transform: skewX(0deg) translateX(0px);
+  }
+}
+
+#exp {
+  font-family: 'Funnel Display', sans-serif;
+  font-size: 120px;
+}
+
+</style>
+
+
+
+</head>
+<body>
+    <div class="bg-image text-white">
+        <div class="navbar-nav w-100">
+        <div class="container">
+            <div class="row">
+               <div class="col-10 text-center" id="logo">
+                <p class="ms-5 ps-5">Logo</p>
+               </div>
+               <div class="col-2 d-flex justify-content-center pt-1">
+                <h5 class="pt-3" id="logo"><a href="#" class="text-decoration-none text-white">About</a></h5>
+               </div>
+            </div>
+        </div>
+        </div>
+    
+
+    <!-- <hr id="hr" class="bg-danger border-3 border-top border-primary w-75 mx-auto"> -->
+
+    <div class="container-fluid row pt-5 w-100 align-items-start justify-content-center">
+        <div class="col-12 text-white" id="landing-title">Discover</div>
+        <div class="col-12 text-white" id="landing-title">Iconic </div>
+        <div class="col-12 text-white" id="landing-title">Landscapes</div>
+    </div>
+    </div>
+
+   <div class="container min-vh-100">
+  <div class="row g-5">
+    <div class="col-md-6 d-flex flex-column justify-content-center gap-5 p-5">
+      <div class="ratio ratio-21x9">
+        <img src="21to9.png" class="img-fluid rounded" alt="">
+      </div>
+      <div class="border border-light p-3 rounded-end text-end text-white fs-6">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti beatae nobis ex at tempore accusantium consequuntur dicta amet dolorum hic labore sunt placeat maiores repellendus, recusandae ullam perspiciatis minima omnis?
+      </div>
+      <div class="ratio ratio-21x9">
+        <img src="21to9.png" class="img-fluid rounded" alt="">
+      </div>
+    </div>
+
+    <div class="col-md-6 d-flex flex-column justify-content-center gap-5 p-5">
+      <div class="border border-light p-3 rounded-start text-end text-white fs-5">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti beatae nobis ex at tempore accusantium consequuntur dicta amet dolorum hic labore sunt placeat maiores repellendus, recusandae ullam perspiciatis minima omnis?
+      </div>
+      <div class="ratio ratio-21x9">
+        <img src="21to9.png" class="img-fluid rounded" alt="">
+      </div>
+      <div class="border border-light p-3 rounded-start text-end text-white fs-5">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti beatae nobis ex at tempore accusantium consequuntur dicta amet dolorum hic labore sunt placeat maiores repellendus, recusandae ullam perspiciatis minima omnis?
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="container vh-80">
+  <div class="row">
+    <div class="col-10">
+      <h1 class="text-white" id="exp">Explore</h1>
+      <h1 class="text-white" id="exp">more.</h1>
+    </div>
+    <div class="col-2 d-flex justify-content-center align-items-center pt-5 mt-5">
+      <img src="arrow-right-corner-down-276-svgrepo-com.svg" class="w-50" alt="">
+    </div>
+  </div>
+</div>
+
+
+    <div class="container">
+
+      <div class="row mt-4">
+
+        <div class="col-8">
+          <div class="ratio ratio-21x9 ">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+    
+        <div class="col-4">
+          <div class="ratio ratio-21x9">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+          <div class="ratio ratio-21x9 mt-3">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-4">
+          <div class="ratio ratio-4x3">
+            <img src="4to3.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+    
+        <div class="col-4">
+          <div class="ratio ratio-4x3">
+            <img src="4to3.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+
+        <div class="col-4 mt-3">
+          <div class="ratio ratio-4x3">
+            <img src="4to3.png" alt="" class="img-fluid block rounded h-75">
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-6">
+          <div class="ratio ratio-1x1">
+            <img src="1to1.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+    
+        <div class="col-4">
+          <div class="ratio ratio-1x1">
+            <img src="1to1.png" alt="" class="img-fluid block rounded ">
+          </div>
+
+          <div class="ratio ratio-21x9 mt-3">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="ratio ratio-1x1">
+            <img src="1to1.png" alt="" class="img-fluid block rounded">
+          </div>
+          <div class="ratio ratio-1x1 mt-4">
+            <img src="1to1.png" alt="" class="img-fluid block rounded">
+          </div>
+          <div class="ratio ratio-1x1 mt-3">
+            <img src="1to1.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+
+      </div>
+
+      
+      <div class="row">
+
+        <div class="col-6 d-flex gap-4 mt-2">
+          <div class="ratio ratio-1x1">
+            <img src="1to1.png" alt="" class="img-fluid block rounded">
+          </div>
+          <div class="ratio ratio-1x1">
+            <img src="1to1.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+    
+        <div class="col-6">
+          <div class="ratio ratio-4x3">
+            <img src="4to3.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+
+      </div>
+
+       <div class="row mt-4">
+
+        <div class="col-4">
+          <div class="ratio ratio-21x9">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+          <div class="ratio ratio-21x9 mt-2">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+
+        <div class="col-8">
+          <div class="ratio ratio-21x9 ">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+
+        <div class="row mt-4">
+
+        <div class="col-6">
+          <div class="ratio ratio-21x9 ">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+          <div class="ratio ratio-21x9 mt-2">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="ratio ratio-21x9 ">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+          <div class="ratio ratio-21x9 mt-2">
+            <img src="21to9.png" alt="" class="img-fluid block rounded">
+          </div>
+        </div>
+
+      </div>
+
+      </div>
+
+<!-- .photo {
+    position: relative;
+    max-height: 200px;
+}
+.photo img {
+  display: inline-block;
+  position: sticky;
+  width: 100%;
+  max-height: 147px;
+  height: auto;
+  
+}   -->
+
+</div>
+
+    </div>
+
+</body>
+</html>
